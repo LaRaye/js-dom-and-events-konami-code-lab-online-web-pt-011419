@@ -13,10 +13,9 @@ function init() {
       if (i === code.length) {
         alert("Hurray!");
         i = 0;
-  
-      } else {
+      }
+    } else {
         i = 0;
       }
-    }
   });
 }
