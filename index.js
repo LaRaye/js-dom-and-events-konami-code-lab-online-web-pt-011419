@@ -16,4 +16,4 @@ code.addEventListener ('keydown', function init(e) {
       i = 0;
     }
   }
-}
+});
