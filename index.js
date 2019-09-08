@@ -7,5 +7,13 @@ function init(e) {
 
   if (key === code[i]) {
     i++;
+    
+    if (i === code.length) {
+      alert("Whoo!");
+      
+      i = 0;
+    } else {
+      i = 0;
+    }
   }
 }
